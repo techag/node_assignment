@@ -12,9 +12,9 @@ API using Node, Express, Mongoose (MongoDB)
 * Run command ` npm start `
 # API end points and Payload
 ***1. Create User***
-URI: ` /users/add`
-Method: ` POST`
-Payload Structure: 
+* URI: ` /users/add`
+* Method: ` POST`
+* Payload Structure: 
 ```json
 {
 	"name": <STRING>,
@@ -23,9 +23,9 @@ Payload Structure:
 }
 ```
 **2. Get list of all Users**
--URI : ` /users`
--Method: ` GET`
--Sample Response: 
+* URI : ` /users`
+* Method: ` GET`
+* Sample Response: 
 ```json
 [
     {
@@ -61,9 +61,9 @@ Payload Structure:
 ]
 ```
 ***3. Create Product***
-URI: ` /products/add`
-Method: ` POST`
-Payload Strucutre: 
+* URI: ` /products/add`
+* Method: ` POST`
+* Payload Strucutre: 
 ```json
 {
 	"name": <STRING>,
@@ -86,9 +86,9 @@ Sample Response:
 }
 ```
 ***5. Post Transaction***
-URI: ` /transactions/add`
-Method: ` POST`
-Payload Structure: 
+* URI: ` /transactions/add`
+* Method: ` POST`
+* Payload Structure: 
 ```json
 {
 	"product_id": <NUM>,
@@ -98,9 +98,9 @@ Payload Structure:
 }
 ```
 ***6. Get all transactions***
-URI: ` /transactions` 
-Method: ` GET`
-Sample Response:
+* URI: ` /transactions` 
+* Method: ` GET`
+* Sample Response:
 ```json
 [
     {
